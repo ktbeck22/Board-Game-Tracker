@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/boardgame-score-pwa/', // Change to your repo name for GH Pages
+  base: '/Board-Game-Tracker/', // Change to your repo name for GH Pages
   plugins: [
     react(),
     VitePWA({
