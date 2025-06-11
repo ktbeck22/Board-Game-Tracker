@@ -1,10 +1,10 @@
 
 {
-  "name": "boardgame-score-pwa",
+  "name": "Board-Game-Tracker",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://ktbeck22.github.io/boardgame-score-pwa",
+  "homepage": "https://ktbeck22.github.io/Board-Game-Tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
