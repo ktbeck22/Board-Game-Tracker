@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Vite will rewrite these paths automatically in build -->
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="pwa-192x192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +10,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/Board-Game-Tracker/src/main.tsx"></script>
+    <!-- This import is for development, and will be rewritten on build -->
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
